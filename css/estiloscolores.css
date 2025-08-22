@@ -1,0 +1,11 @@
+body {
+  background-color: lightsalmon;
+}
+p {
+  color: darkred;
+}
+
+#imgtomas {
+  width: 25%;
+  height: 25%;
+}
