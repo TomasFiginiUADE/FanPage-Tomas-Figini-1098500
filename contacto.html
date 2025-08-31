@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Itsallgoodman</title>
     <link rel="stylesheet" href="css/estiloscolores.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
   </head>
   <body>
     <header>
@@ -16,24 +22,26 @@
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </nav>
-      <h1>Contacto</h1>
+      <h1 class="titulo">Contacto</h1>
     </header>
     <main>
       <form action="mailto:tfigini@uade.edu.ar">
-        <label for="fname">First name:</label><br />
+        <label for="fname">Nombre:</label><br />
         <input type="text" id="fname" name="fname" value="Nombre" /><br />
-        <label for="lname">Last name:</label><br />
+        <label for="lname">Apellido:</label><br />
         <input type="text" id="lname" name="lname" value="Apellido" /><br />
         <label for="Edad">Edad:</label><br />
         <input type="number" />
         <br /><br />
-        <textarea name="comentario" id="" cols="20" rows="10"></textarea>
+        <textarea name="comentario" id="" cols="20" rows="10">
+Agregue un comentario</textarea
+        >
         <br /><br />
-        <input type="submit" value="Enviar" />
+        <button class="button button2">Enviar</button>
       </form>
     </main>
     <footer>
-      <p>Vince Gilligan 2015-2022</p>
+      <div class="texto footer">Vince Gilligan 2015-2022</div>
     </footer>
   </body>
 </html>
